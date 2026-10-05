@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background: #f6f4f1;
+  color: #1a1a1a;
+  font-family: var(--font-sans), sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.shot {
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  background: #ece8e2;
+  border: 1px solid #e4dfd8;
+}
